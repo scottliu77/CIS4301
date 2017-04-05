@@ -1,4 +1,4 @@
-body{
+body {
 	background-color: lightblue;
 }
 
@@ -10,4 +10,10 @@ h1 {
 
 p {
 	font-family: "Georgia", serif;
+}
+
+img {
+	display: block;
+	margin-left: 0 auto;
+	margin-right: 0 auto;
 }
