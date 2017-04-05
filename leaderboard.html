@@ -10,11 +10,11 @@
 
 <h1>Leaderboard</h1>
 
-<form action="/leaderboard.php">
+<form action="leaderboard.php">
 
 <p>Select Champion:</p>
 
-<select name="Champion">
+<select name="championName">
 	<option value="Aatrox">Aatrox</option>
 	<option value="Ahri">Ahri</option>
 	<option value="Akali">Akali</option>
@@ -157,44 +157,45 @@
 
 <p>Number of Entries:</p>
 <input type="radio" name="numEntries" value="10" checked>10<br>
-<input type="radio" name="numEntries" value="50" checked>50<br>
-<input type="radio" name="numEntries" value="100" checked>100<br>
+<input type="radio" name="numEntries" value="50">50<br>
+<input type="radio" name="numEntries" value="100">100<br>
 
 <br>
 
 <p>Sort by:</p>
 <input type="radio" name="sortBy" value="KDA" checked>KDA<br>
-<input type="radio" name="sortBy" value="Most Kills" checked>Most Kills<br>
-<input type="radio" name="sortBy" value="Least Deaths" checked>Least Deaths<br>
+<input type="radio" name="sortBy" value="Most Kills">Most Kills<br>
+<input type="radio" name="sortBy" value="Least Deaths">Least Deaths<br>
+<input type="radio" name="sortBy" value="Win Rate" >Win Rate<br>
 
 <br>
 
 <p>Include players in:</p>
-<input type="checkbox" name="division" value="Bronze" checked>Bronze<br>
-<input type="checkbox" name="division" value="Silver" checked>Silver<br>
-<input type="checkbox" name="division" value="Gold" checked>Gold<br>
-<input type="checkbox" name="division" value="Platinum" checked>Platinum<br>
-<input type="checkbox" name="division" value="Diamond" checked>Diamond<br>
-<input type="checkbox" name="division" value="Master" checked>Master<br>
-<input type="checkbox" name="division" value="Challenger" checked>Challenger<br>
+<input type="checkbox" name="BRONZE" value="1" checked>Bronze<br>
+<input type="checkbox" name="SILVER" value="1" checked>Silver<br>
+<input type="checkbox" name="GOLD" value="1" checked>Gold<br>
+<input type="checkbox" name="PLATINUM" value="1" checked>Platinum<br>
+<input type="checkbox" name="DIAMOND" value="1" checked>Diamond<br>
+<input type="checkbox" name="MASTER" value="1" checked>Master<br>
+<input type="checkbox" name="CHALLENGER" value="1" checked>Challenger<br>
 
 <br>
 
 <p> Include players from:</p>
-<input type="checkbox" name="region" value="NA" checked>North America<br>
-<input type="checkbox" name="region" value="EUW" checked>Europe West<br>
-<input type="checkbox" name="region" value="EUNE" checked>Europe Nordic East<br>
-<input type="checkbox" name="region" value="LAN" checked>Latin America North<br>
-<input type="checkbox" name="region" value="LAS" checked>Latin America South<br>
-<input type="checkbox" name="region" value="OCE" checked>Oceania<br>
-<input type="checkbox" name="region" value="RU" checked>Russia<br>
-<input type="checkbox" name="region" value="TR" checked>Turkey<br>
-<input type="checkbox" name="region" value="JP" checked>Japan<br>
-<input type="checkbox" name="region" value="SEA" checked>South East Asia<br>
-<input type="checkbox" name="region" value="KR" checked>Republic of Korea<br>
+<input type="checkbox" name="na" value="1" checked>North America<br>
+<input type="checkbox" name="euw" value="1" checked>Europe West<br>
+<input type="checkbox" name="eune" value="1" checked>Europe Nordic East<br>
+<input type="checkbox" name="lan" value="1" checked>Latin America North<br>
+<input type="checkbox" name="las" value="1" checked>Latin America South<br>
+<input type="checkbox" name="oce" value="1" checked>Oceania<br>
+<input type="checkbox" name="ru" value="1" checked>Russia<br>
+<input type="checkbox" name="tr" value="1" checked>Turkey<br>
+<input type="checkbox" name="jp" value="1" checked>Japan<br>
+<input type="checkbox" name="sea" value="1" checked>South East Asia<br>
+<input type="checkbox" name="kr" value="1" checked>Republic of Korea<br>
 
 
-
+<br>
 
 
 
