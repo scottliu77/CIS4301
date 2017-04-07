@@ -9,15 +9,43 @@
 <h1>Search</h1>
 
 <br>
-<p>Search by Summoner name</p>
+<h2>Search by Summoner name</h2>
 
 <form action="search.php" method="get">
 <input type="text" name="summonername" placeholder="Summoner Name">
 <br><br> 
+
+<p>Select the statistics you would like to view:</p>
+
+<input type="checkbox" name="TIER" value="1" checked>Tier<br>
+<input type="checkbox" name="DIVISION" value="1" checked>Division<br>
+<input type="checkbox" name="TOP5" value="1" checked>Top Five Mastered Champions<br>
+<input type="checkbox" name="TOP5STATS" value="1" checked>Mastered Champion Statistics<br>
+<input type="checkbox" name="K" value="1" checked>Total Kills<br>
+<input type="checkbox" name="D" value="1" checked>Total Deaths<br>
+<input type="checkbox" name="A" value="1" checked>Total Assists<br>
+
+<input type="checkbox" name="KDA" value="1" checked>KDA<br>
+<input type="checkbox" name="GAMES_WON" value="1" checked>Total Wins<br>
+<input type="checkbox" name="GAMES_LOST" value="1" checked>Total Losses<br>
+<input type="checkbox" name="GAMES_PLAYED" value="1" checked>Total Games Played<br>
+<input type="checkbox" name="WINRATE" value="1" checked>Win Rate<br>
+<input type="checkbox" name="REGION" value="1" checked>Region<br>
+
+<br>
+
+<p>How would you like the data formmatted?</p>
+<input type="checkbox" name="AVERAGE" value="1" checked>Display the average statistics for the summoner<br>
+<input type="checkbox" name="INDIVIDUAL" value="1" checked>Display the individual statistics for each of the summoner's top 5 mastered champions<br>
+
+<br.
+
+
+
 <input type="submit" value = "Submit">
 </form>
 
-<p>Search by Champion</p>
+<h2>Search by Champion</h2>
 
 <form action="/championsearch.php">
 <select name="Champion">
@@ -84,6 +112,21 @@
 	
 </select>
 <br><br>
+
+<p>Select the statistics you would like to viewr:</p>
+
+<input type="checkbox" name="K" value="1" checked>Total Kills<br>
+<input type="checkbox" name="D" value="1" checked>Total Deaths<br>
+<input type="checkbox" name="A" value="1" checked>Total Assists<br>
+
+<input type="checkbox" name="KDA" value="1" checked>KDA<br>
+<input type="checkbox" name="GAMES_WON" value="1" checked>Total Wins<br>
+<input type="checkbox" name="GAMES_LOST" value="1" checked>Total Losses<br>
+<input type="checkbox" name="GAMES_PLAYED" value="1" checked>Total Games Played<br>
+<input type="checkbox" name="WINRATE" value="1" checked>Win Rate<br>
+
+<br>
+
 <input type="submit" value="Submit">
 
 

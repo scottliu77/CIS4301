@@ -1,0 +1,21 @@
+body{
+	background-color: lightblue;
+}
+
+
+h1 {
+	text-align: center;
+	font-family: "Georgia",serif;
+}
+
+p {
+	font-family: "Georgia", serif;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 3px;
+}
